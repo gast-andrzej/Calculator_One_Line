@@ -1,0 +1,3 @@
+def calculator(z=int(input('1. addition\n2. subtraction\n3. multiplication\n4. division\n5. powers\n'))):
+    return print(f"addition {int(input('First Number: '))+int(input('Second Number: '))}" if z == 1 else f"subtraction {int(input('First Number: '))-int(input('Second Number: '))}" if z == 2 else f"multiplication {int(input('First Number: '))*int(input('Second Number: '))}" if z == 3 else f"division {int(input('First Number: '))/int(input('Second Number: '))}" if z == 4 else f"power {int(input('First Number: '))**int(input('Second Number: '))}")
+calculator()
